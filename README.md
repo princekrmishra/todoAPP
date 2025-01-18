@@ -1,27 +1,6 @@
 # TODOAPP
 TODOAPP is a Node.js-based application designed to manage a to-do list. It provides functionalities to create, read, update, and delete to-do items, utilizing a structured MVC (Model-View-Controller) architecture.
 
-# Project Structure
-TODOAPP
-├── config
-│   └── database.js       # Database configuration
-├── controllers
-│   ├── createTodo.js     # Controller for creating a to-do item
-│   ├── deleteTodo.js     # Controller for deleting a to-do item
-│   ├── getTodo.js        # Controller for retrieving all to-do items
-│   ├── getTodoById.js    # Controller for retrieving a to-do item by ID
-│   └── updateTodo.js     # Controller for updating a to-do item
-├── models
-│   └── Todo.js           # Mongoose model for to-do items
-├── node_modules          # Node.js modules
-├── routes
-│   └── todos.js          # Routes for to-do operations
-├── .env                  # Environment variables
-├── index.js              # Entry point of the application
-├── package-lock.json     # Lockfile for npm
-├── package.json          # Project metadata and dependencies
-└── README.md             # Project documentation
-
 
 # Installation
 # Clone the repository:
